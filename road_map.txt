@@ -1,0 +1,13 @@
+
+Step 1:
+    Text Preprocessing: Tokenization, Lemmatization, Stemming, Stopwords. 
+
+Step 2:
+    Text Preprocessing: BoW, TF-IDF, Unigrams, Bigrams. 
+
+Step 3:
+    Text Preprocessing: Word2Vec, AvgWord2Vec.
+
+Tokenization: 
+    Process where we takes a paragraphs or word, and convert into a tokens. 
+

@@ -1,0 +1,11 @@
+import langchain
+from langchain import hub
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_community.vectorstores import FAISS
+from langchain_groq import ChatGroq
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain_core.output_parsers import StrOutputParser
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+# Reading the models.
+api_token = "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"
